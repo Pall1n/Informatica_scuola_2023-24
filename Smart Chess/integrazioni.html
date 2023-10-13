@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart chess</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="w-full p-3 border-solid border-b-1 shadow-md rounded-lg z-10 top-0 sticky bg-white">
+        <div class="w-4/6 mx-auto flex justify-between items-center max-2xl:w-3/4">
+            <div class="flex-row flex">
+                <img src="./assets/logo/logo.svg" class="w-5 mr-3">
+                <h1 class="font-bold text-xl my-auto">Smart Chess</h1>
+            </div>
+            <div class="flex flex-row justify-end gap-5 max-lg:hidden">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-normal">Integrazioni</a>
+            </div>
+            <img src="./assets/icons/menu.svg" class="w-5 my-auto hidden max-lg:block" id="menu">
+        </div>
+        <div class="w-full p-2 mt-2 min-[1024px]:hidden" id="mobile-menu">
+            <div class="flex flex-row justify-center gap-5">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-normal">Integrazioni</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-3/5 mx-auto my-10 flex flex-col gap-10 max-2xl:w-5/6">
+        <div class="flex flex-row justify-center rounded-lg max-lg:flex-wrap p-5 max-lg:px-2 max-lg:py-5" id="banner-secondario">
+            <img src="./assets/images/gif_integrazioni.gif"
+                alt="Una scacchiera Smart Chess che si riordina automaticamente"
+                class="rounded-xl w-1/2 my-auto max-lg:w-4/5 max-lg:mb-5 shadow-lg">
+            <p class="text-justify text-xl my-auto mx-8 text-slate-700">
+                GoChess si integra con le piattaforme Lichess e Chess.com. Grazie ai sensori magnetici integrati e alla
+                connettività per tracciare le mosse, è possibile giocare su GoChess, proprio come se si fosse seduti di
+                fronte al proprio avversario. GoChess vi permette di creare e mantenere connessioni con altri
+                appassionati di scacchi in qualsiasi parte del mondo, giocando comodamente da casa vostra.
+            </p>
+        </div>
+        <div class="flex flex-row justify-center rounded-lg max-lg:flex-wrap p-5 max-lg:px-2 max-lg:py-5" id="banner-primario">
+            <p class="text-justify text-xl my-auto mx-8 text-slate-700">
+                Creata da maestri di scacchi, l'app dedicata GoChess si sincronizza perfettamente con la vostra
+                scacchiera reale, fondendo le esperienze di gioco online e offline. Connettetevi alle piattaforme di
+                scacchi più diffuse, risolvete i puzzle più impegnativi, rivisitate le partite storiche o trasmettete in
+                streaming le partite in tempo reale sulla vostra scacchiera.
+            </p>
+            <img src="./assets/images/app_integrazioni.jpg"
+                alt="Una scacchiera Smart Chess che si riordina automaticamente"
+                class="rounded-xl w-1/2 my-auto max-lg:w-4/5 max-lg:mt-5 shadow-lg">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

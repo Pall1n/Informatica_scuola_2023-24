@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart chess</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="w-full p-3 border-solid border-b-1 shadow-md rounded-lg z-10 top-0 sticky bg-white">
+        <div class="w-4/6 mx-auto flex justify-between items-center max-2xl:w-3/4">
+            <div class="flex-row flex">
+                <img src="./assets/logo/logo.svg" class="w-5 mr-3">
+                <h1 class="font-bold text-xl my-auto">Smart Chess</h1>
+            </div>
+            <div class="flex flex-row justify-end gap-5 max-lg:hidden">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-normal">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+            <img src="./assets/icons/menu.svg" class="w-5 my-auto hidden max-lg:block" id="menu">
+        </div>
+        <div class="w-full p-2 mt-2 min-[1024px]:hidden" id="mobile-menu">
+            <div class="flex flex-row justify-center gap-5">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-normal">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+        </div>
+    </nav>
+
+    <img src="./assets/images/modelli.jpg" alt="poster dei due tipi di scacchiera"
+        class="shadow-lg h-fit w-3/5 mx-auto rounded-3xl mt-10 max-lg:w-5/6 max-lg:mt-5 max-sm:hidden">
+    <img src="https://ksr-ugc.imgix.net/assets/040/978/846/f0bb5a4b81477ce8a21162862ec40366_original.jpg?ixlib=rb-4.1.0&w=680&fit=max&v=1684333751&gif-q=50&q=92&s=2c8bf0f5c82c10cef32841cabc194d6e"
+        alt="poster dei due tipi di scacchiera"
+        class="shadow-lg h-fit w-3/5 mx-auto rounded-3xl mt-10 max-lg:w-5/6 max-lg:mt-5 max-sm:block hidden">
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

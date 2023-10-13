@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart chess</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="w-full p-3 border-solid border-b-1 shadow-md rounded-lg z-10 top-0 sticky bg-white">
+        <div class="w-4/6 mx-auto flex justify-between items-center max-2xl:w-3/4">
+            <div class="flex-row flex">
+                <img src="./assets/logo/logo.svg" class="w-5 mr-3">
+                <h1 class="font-bold text-xl my-auto">Smart Chess</h1>
+            </div>
+            <div class="flex flex-row justify-end gap-5 max-lg:hidden">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-normal">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+            <img src="./assets/icons/menu.svg" class="w-5 my-auto hidden max-lg:block" id="menu">
+        </div>
+        <div class="w-full p-2 mt-2 min-[1024px]:hidden" id="mobile-menu">
+            <div class="flex flex-row justify-center gap-5">
+                <a href="./index.html" class="font-bold">Home</a>
+                <a href="./acquista.html" class="font-normal">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex flex-column justify-center gap-16 mt-10 max-lg:gap-8 max-lg:flex-wrap">
+        <div class="w-4/12 justify-center items-center max-md:w-4/5 max-2xl:w-2/5">
+            <img src="https://c0.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,w_762,g_center,q_auto:best,dpr_1.0,f_auto,h_506/g8fse2qhbcmazqqcwa5z"
+                class="rounded-lg">
+            <div class="flex justify-center gap-8">
+                <button
+                    onclick="window.open('https://www.indiegogo.com/projects/gochess-most-powerful-chess-board-ever-invented', '_blank');"
+                    class="outline bg-white p-3 m-5 w-2/5 rounded-md outline-orange-500 font-bold">Info</button>
+                <button
+                    onclick="window.open('https://www.indiegogo.com/projects/gochess-most-powerful-chess-board-ever-invented/payments/new', '_blank');"
+                    class="outline bg-orange-500 p-3 m-5 w-2/5 rounded-md outline-orange-500 font-bold text-white">Acquista</button>
+            </div>
+        </div>
+        <div class="w-4/12 justify-center items-center max-md:w-4/5 max-2xl:w-2/5">
+            <img src="https://c3.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,w_762,g_center,q_auto:best,dpr_1.0,f_auto,h_506/fdthxqgvnhe8dvhfac8x"
+                class="rounded-lg">
+            <div class="flex justify-center gap-8">
+                <button
+                    onclick="window.open('https://www.indiegogo.com/projects/gochess-most-powerful-chess-board-ever-invented', '_blank');"
+                    class="outline bg-white p-3 m-5 w-2/5 rounded-md outline-orange-500 font-bold">Info</button>
+                <button
+                    onclick="window.open('https://www.indiegogo.com/projects/gochess-most-powerful-chess-board-ever-invented/payments/new', '_blank');"
+                    class="outline bg-orange-500 p-3 m-5 w-2/5 rounded-md outline-orange-500 font-bold text-white">Acquista</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

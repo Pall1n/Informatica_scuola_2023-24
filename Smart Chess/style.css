@@ -1,0 +1,11 @@
+#banner-primario {
+    background: rgb(182, 229, 237);
+    background: linear-gradient(135deg, rgba(182, 229, 237, 0.564) 0%, rgba(253, 255, 181, 0.488) 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#banner-secondario {
+    background: rgb(227, 237, 182);
+    background: linear-gradient(135deg, rgba(227, 237, 182, 0.564) 0%, rgba(250, 187, 229, 0.488) 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}

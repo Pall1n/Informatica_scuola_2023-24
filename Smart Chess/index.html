@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart chess</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="w-full p-3 border-solid border-b-1 shadow-md rounded-lg z-10 top-0 sticky bg-white">
+        <div class="w-4/6 mx-auto flex justify-between items-center max-2xl:w-3/4">
+            <div class="flex-row flex">
+                <img src="./assets/logo/logo.svg" class="w-5 mr-3">
+                <h1 class="font-bold text-xl my-auto">Smart Chess</h1>
+            </div>
+            <div class="flex flex-row justify-end gap-5 max-lg:hidden">
+                <a href="./index.html" class="font-normal">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+            <img src="./assets/icons/menu.svg" class="w-5 my-auto hidden max-lg:block" id="menu">
+        </div>
+        <div class="w-full p-2 mt-2 min-[1024px]:hidden" id="mobile-menu">
+            <div class="flex flex-row justify-center gap-5">
+                <a href="./index.html" class="font-normal">Home</a>
+                <a href="./acquista.html" class="font-bold">Acquista</a>
+                <a href="./modelli.html" class="font-bold">Modelli</a>
+                <a href="./integrazioni.html" class="font-bold">Integrazioni</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-3/5 mx-auto my-10 rounded-lg flex-row p-5 max-xl:w-5/6 max-lg:px-2 max-lg:py-5" id="banner-primario">
+        <h1 class="text-4xl font-bold text-center text-slate-800 mb-5">Gli scacchi intelligenti</h1>
+        <div class="flex flex-row justify-center max-lg:flex-wrap">
+            <video
+                src="https://v2.kickstarter.com/1697110135-igV7LzM0V6zplrnq7njO0wtjUfRgZI6NHQq55Oi4QEc%3D/projects/4571581/video-1227226-h264_high.mp4"
+                alt="Una scacchiera Smart Chess che si riordina automaticamente"
+                class="rounded-xl w-1/2 my-auto max-lg:w-4/5 max-lg:mb-5" autoplay controls muted></video>
+            <p class="text-justify text-xl my-auto mx-8 text-slate-700">
+                Smart Chess è un progetto che nasce con l'obiettivo di rendere il gioco degli scacchi
+                più divertente ed interattivo, permettendo a persone provenienti da tutto il mondo di
+                giocare assieme, grazie all'integrazione con diverse <a href="./integrazioni.html"
+                    class="text-blue-600 font-semibold">piattaforme online</a>.
+            </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
